@@ -3,7 +3,7 @@ title: "FeeDesk: Technical Design Document"
 subtitle: "Fee ledger, parent portal and refunds for Company A, Jaipur"
 ---
 
-**GitHub:** https://github.com/<your-username>/fee_tracking_system
+**GitHub:** https://github.com/Utkarsh263/fee_tracking_system
 
 # 1. Scope and assumptions
 Core slice built end to end: fee ledger, parent portal with dues and pay link, reminders that stop on payment, refund calculator, dues dashboard. Roles: parent and accounts executive. AI: dropout-risk flag. Payments and SMS/WhatsApp delivery remain simulated; the app provides a printable receipt (browser Print → Save as PDF), CSV export, and a Tally XML voucher export template. No live gateway or messaging provider is configured.
